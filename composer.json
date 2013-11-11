@@ -1,0 +1,34 @@
+{
+    "name": "tatarko/presto",
+    "description": "Presto templating engine for php projects",
+    "homepage": "https://github.com/tatarko/Presto",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomas Tatarko",
+            "email": "tomas@tatarko.sk",
+            "homepage": "http://tatarko.sk",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/tatarko/Presto/issues",
+        "wiki": "https://github.com/tatarko/Presto/wiki",
+        "source": "https://github.com/tatarko/Presto"
+    },
+    "keyword": [
+        "presto",
+        "php",
+        "template",
+        "engine"
+    ],
+    "require": {
+        "php": "~5.3"
+    },
+    "version": "1.0",
+    "autoload": {
+        "psr-0": {
+            "Presto\\": "source/"
+        }
+    }
+}
