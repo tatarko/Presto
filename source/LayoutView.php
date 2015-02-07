@@ -23,11 +23,11 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace Presto;
+namespace tatarko\presto;
 
 /**
  * Extented View due to differed layout view path
- * @package Presto
+ * @package presto
  * @author Tomas Tatarko <tomas@tatarko.sk>
  * @copyright (c) 2013, Tomas Tatarko
  * @link https://github.com/tatarko/Presto

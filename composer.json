@@ -12,9 +12,9 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/tatarko/Presto/issues",
-        "wiki": "https://github.com/tatarko/Presto/wiki",
-        "source": "https://github.com/tatarko/Presto"
+        "source": "https://github.com/tatarko/presto",
+        "issues": "https://github.com/tatarko/presto/issues",
+        "wiki": "https://github.com/tatarko/presto/wiki"
     },
     "keyword": [
         "presto",
@@ -25,10 +25,10 @@
     "require": {
         "php": "~5.3"
     },
-    "version": "1.0",
+    "version": "1.0.0-dev",
     "autoload": {
-        "psr-0": {
-            "Presto\\": "source/"
+        "psr-4": {
+            "tatarko\\presto\\": "source/"
         }
     }
 }

@@ -26,35 +26,40 @@
 namespace tatarko\presto;
 
 /**
- * Simple wrapper class for authors of template
+ * Wrapper for layout
  * @package presto
  * @author Tomas Tatarko <tomas@tatarko.sk>
  * @copyright (c) 2013, Tomas Tatarko
- * @link https://github.com/tatarko/presto
+ * @link https://github.com/tatarko/Presto
  * @license http://choosealicense.com/licenses/mit/ The MIT License
  * @since 1.0
- * @property-read string $htmlLink Html link to author's homepage
  */
-class Author extends Object
+class Menu extends Object
 {
     /**
-     * Name of the author
+     * View pouzity pre dane menu
      * @var string
      */
-    public $name;
+    public $view;
 
     /**
-     * Homepage of the author
+     * Typ daneho menu
      * @var string
      */
-    public $url;
+    public $type;
 
     /**
-     * Gets html link to author's homepage
-     * @return string
+     * Layout, ktoremu patri dane menu
+     * @var string
      */
-    public function getHtmlLink()
+    protected $layout;
+
+    /**
+     * Konstruktor (linkovanie layoutu
+     * @param \PrestoEngine\Layout $layout
+     */
+    public function __construct(Layout $layout)
     {
-        return sprintf('<a href="%s">%s</a>', $this->url, $this->name);
+        $this->layout = $layout;
     }
 }
