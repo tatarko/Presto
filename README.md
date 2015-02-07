@@ -1,6 +1,6 @@
 # Presto templating engine
 
-MongoAR is simple library that allows you to use active record pattern on the [MongoDB](http://www.mongodb.org) databases and their tables. It also provides simple yet powerful query builder for simple building of search criteria for `MongoCollection::find()` and `MongoCollection::findOne()` methods.
+Presto is simple and lightweight php templating engine based on the syntax of twig. It was built as part for `Opiner CMS` framework but become solo project that you can use as composer package in your own project.
 
 ## Requirements
 
@@ -26,8 +26,8 @@ Simply add a dependency on `tatarko/presto` to your project's `composer.json` fi
 
 In case you don't use `Composer` as your dependency manager you are still able to use `Presto`. There are only two easy steps  to get `Presto` work.
 
-1.  Download [Presto.zip](https://github.com/tatarko/Presto/archive/master.zip) and put extracted archive into your project's folder.
-2. Add following code to your project's root php file (e.g. `index.php`) and remember to change `path/to/` according to relative location of downloaded `Presto` folder:
+1.  Download [presto.zip](https://github.com/tatarko/presto/archive/master.zip) and put extracted archive into your project's folder.
+2. Add following code to your project's root php file (e.g. `index.php`) and remember to change `path/to/` according to relative location of downloaded `presto` folder:
 
 ```php
 require_once 'path/to/source/__autoloader.php';
@@ -35,4 +35,4 @@ require_once 'path/to/source/__autoloader.php';
 
 ## Documentation
 
-Please, see [Wiki](https://github.com/tatarko/Presto/wiki) for online documentation.
+Please, see [Wiki](https://github.com/tatarko/presto/wiki) for online documentation.
