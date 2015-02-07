@@ -1,6 +1,6 @@
 <?php
 
-namespace PrestoEngine;
+namespace tatarko\presto;
 
 /**
  * Presto Template engine

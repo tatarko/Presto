@@ -23,11 +23,11 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace Presto;
+namespace tatarko\presto;
 
 /**
  * Basic view interfacing and pattern for layout/menu view
- * @package Presto
+ * @package presto
  * @author Tomas Tatarko <tomas@tatarko.sk>
  * @copyright (c) 2013, Tomas Tatarko
  * @link https://github.com/tatarko/Presto

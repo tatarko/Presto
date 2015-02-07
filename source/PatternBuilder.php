@@ -1,6 +1,6 @@
 <?php
 
-namespace PrestoEngine;
+namespace tatarko\presto;
 
 /**
  * Builder regexp patternov
